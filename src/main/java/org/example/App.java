@@ -40,6 +40,6 @@ public class App
             default: mon = "Invalid month";
                 break;
         }
-        System.out.printf("The number %d corresponds to: %s",month,mon);
+        System.out.printf("The name of the month is %s.",mon);
     }
 }
